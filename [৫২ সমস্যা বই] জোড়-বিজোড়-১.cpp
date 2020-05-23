@@ -68,7 +68,7 @@ char toUpperCase(char c){ return (isLowerCase(c)) ? (c - 32) : c; }          //N
 int toInt(string s){ int r = 0; istringstream sin(s); sin >> r; return r; }  //NOTES:toInt(
 double toDouble(string s){ double r = 0; istringstream sin(s); sin >> r; return r; }//NOTES:toDouble(
 string toString(int n){ string s; stringstream convert; convert << n; s = convert.str(); return s; }//NOTES:toString
-
+//tom
 /*
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                             							TEMPLATE ENDS HERE!
