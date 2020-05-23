@@ -57,7 +57,7 @@ template<class T> inline T fABS(T a) { return a< 0 ? a * (-1) : a; }
 template<class T> inline void SWAP(T &a, T &b) { T t = a; a = b; b = t; }
 inline LL POW(LL base, LL power){ LL I, res = base; if (power == 0) return 1;
 	for (I = 0; I < power - 1; I++) res *= base; return res; }
-//Translator
+//Translators
 bool isUpperCase(char c){ return c >= 'A' && c <= 'Z'; }                //NOTES: isUpperCase(
 bool isLowerCase(char c){ return c >= 'a' && c <= 'z'; }                //NOTES: isLowerCase(
 bool isVowel(char c) { return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U'); }//NOTES: isVowel(
